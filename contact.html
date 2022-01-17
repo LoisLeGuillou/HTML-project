@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Formation Company</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="navigation-bar">
+	  <a href="index.html">
+	  <div class="box-logo"><img src="images/logo.jpg" alt="logo-image" class="logo"></div>
+	  </a>
+	  <nav class="menu">
+		<ul>
+		  <li><a href="about-us.html">About Us</a></li>
+		  <li><a href="mission.html">Mission</a></li>
+		  <li><a href="services.html">Services</a></li>
+		  <li><a href="choose-us.html">Why choose us</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		</ul>
+	  </nav>
+	</header>
+
+	<main>
+	  <h1>Send your message</h1>
+
+	<form action="http://vip.groupehn.com:20003/html/infospost.php" method="post" class="formulaire">
+	<ul>
+	  <li>
+	    <label for="lastname">Lastname:</label>
+	    <input type="text" id="lastname" name="lastname">
+	  </li>
+	  <li>
+	    <label for="firstname">Firstname:</label>
+	    <input type="text" id="firstname" name="firstname">
+	  </li>
+	  <li>
+	    <label for="mail">E-mail:</label>
+	    <input type="email" id="mail" name="email" placeholder="yourmail@yahoo.com">
+	  </li>
+	  <li>
+	    <label for="request">Message:</label>
+	    <textarea id="request" name="request" cols="66" rows="10"></textarea>
+	  </li>
+	  <li>
+	    <label for="country">Country:</label>
+	    <select name="country" id="country">
+		<option value="">--Please choose a country--</option>
+		<option value="France">France</option>
+		<option value="Germany">Germany</option>
+		<option value="Spain">Spain</option>
+	    </select>
+	  </li>
+	  <li class="button">
+	    <button type="submit">Send your message</button>
+	  </li>
+	</ul>
+    	</form>
+
+	</main>
+
+</body>
+
+</html>

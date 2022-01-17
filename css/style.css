@@ -1,0 +1,147 @@
+html {
+  width: 960px;
+  margin-left: 300px;
+}
+
+.navigation-bar {
+  display: flex;
+  background-color: black;
+}
+
+.menu {
+  margin-left: 1%;
+}
+
+.box-logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 10%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  object-fit: contain;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li { 
+  float:left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  padding: 25px 25px;
+  font: 1.5em "Fira Sans", sans-serief;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu li a:hover {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box-img1 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-anglais {
+  object-fit: contain;
+}
+
+.box-img2 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-sciences {
+  object-fit: contain;
+}
+
+.box-img3 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-programmation {
+  object-fit: contain;
+}
+
+.box-img4 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-entreprise {
+  object-fit: contain;
+}
+
+.ligne1 {
+  display: flex;
+}
+
+.ligne2 {
+  display: flex;
+}
+
+.formulaire {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.formulaire ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.formulaire li + li {
+  margin-top: 1em;
+}
+
+.formulaire input, .formulaire textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+.formulaire input:focus, .formulaire textarea:focus {
+   border-color: #000;
+}
+
+.formulaire textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.formulaire .button {
+  padding-left: 90px;
+}
+
+.formulaire button {
+  margin-left: .5em;
+}
