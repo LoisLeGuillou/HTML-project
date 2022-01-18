@@ -1,7 +1,33 @@
+/*style pour toutes les pages*/
 html {
   width: 960px;
   margin-left: 300px;
 }
+
+h1, h2 {
+  text-align: center;
+  font: bold 1.5em "Fira Sans", sans-serif;
+}
+
+p {
+  font: 1.2em "Fira Sans", sans-serief;
+  text-align: center;
+}
+
+/* 1 paragraphe et 1 photo*/
+
+.style1 {
+  border: solid blue;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/*index page style*/
 
 .navigation-bar {
   display: flex;
@@ -16,11 +42,6 @@ html {
   width: 100px;
   height: 100px;
   margin-left: 10%;
-}
-
-img {
-  height: 100%;
-  width: 100%;
 }
 
 .logo {
@@ -48,61 +69,23 @@ img {
   background-color: red;
 }
 
-h1 {
-  text-align: center;
-}
-
-.box-img1 {
+.box-img {
   width: 400px;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.img-anglais {
-  object-fit: contain;
-}
-
-.box-img2 {
-  width: 400px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-sciences {
-  object-fit: contain;
-}
-
-.box-img3 {
-  width: 400px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-programmation {
-  object-fit: contain;
-}
-
-.box-img4 {
-  width: 400px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-entreprise {
-  object-fit: contain;
 }
 
 .ligne1 {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .ligne2 {
   display: flex;
 }
+
+/*form page style*/
 
 .formulaire {
   margin: 0 auto;
@@ -144,4 +127,46 @@ h1 {
 
 .formulaire button {
   margin-left: .5em;
+}
+
+.img-teacher {
+  object-fit: contain;
+}
+
+/* mission page*/
+.wrnot, .wrdiff {
+  list-style-type: disc;
+}
+
+.wrnot li, .wrdiff li {
+  font: 1.2em "Fira Sans", sans-serief;
+  text-align: justify;
+}
+
+/* service page */
+
+.service {
+  position: relative;
+  text-align: center;
+  border: solid red;
+  width: 400px;
+  height: 350px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.service img {
+  width: 100%;
+  height: 80%;
+  opacity: 0.3;
+}
+
+.price {
+  position: absolute;
+  font: 4em "Fira Sans", sans-serief;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
